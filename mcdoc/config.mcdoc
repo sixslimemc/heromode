@@ -1,4 +1,9 @@
 
-dispatch minecraft:storage[heromode:config] to struct Config {
+use super::def::AttributeModifier
 
+dispatch minecraft:storage[heromode:config] to struct Config {
+    attributes: struct {
+        passive: [AttributeModifier],
+        airborne: [AttributeModifier],
+    }
 }

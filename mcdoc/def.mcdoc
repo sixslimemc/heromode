@@ -1,0 +1,10 @@
+
+type AttributeOperation = ::java::util::attribute::AttributeOperation
+type AttributeType = #[id="attribute"] string
+type AttributeId = #[id="attribute_modifier"] string
+
+struct AttributeModifier {
+    attribute: AttributeType,
+    amount: double,
+    operation: AttributeOperation,
+}
