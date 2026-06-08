@@ -1,0 +1,8 @@
+
+dispatch minecraft:storage[heromode:in] to struct In {
+
+}
+
+dispatch minecraft:storage[heromode:out] to struct Out {
+
+}

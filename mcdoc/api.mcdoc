@@ -1,0 +1,7 @@
+
+
+dispatch minecraft:storage[heromode:api] to struct Api {
+
+}
+
+

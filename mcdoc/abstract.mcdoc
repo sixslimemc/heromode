@@ -1,0 +1,8 @@
+
+dispatch minecraft:storage[heromode:abstract/in] to struct AbstractIn {
+
+}
+
+dispatch minecraft:storage[heromode:abstract/out] to struct AbstractOut {
+
+}
