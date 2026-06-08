@@ -1,4 +1,6 @@
 
+use super::super::def::AttributeModifier
+
 struct VariableRegister {
     [string]: any
 }
@@ -15,7 +17,7 @@ dispatch minecraft:storage[heromode:_] to struct {
     x: VariableRegister,
     // data
     data: struct PrivateData {
-        
+        config: super::super::config::Config
     },
     // constants
     const: struct Constants {
