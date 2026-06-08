@@ -14,4 +14,4 @@ data modify storage heromode:config attributes.passive append value {attribute:"
 data modify storage heromode:config attributes.passive append value {attribute:"minecraft:attack_speed", amount: -0.2, operation:"add_multiplied_base"}
 
 # airborne:
-data modify storage heromode:config attributes.passive append value {attribute:"minecraft:attack_speed", amount: -0.45, operation:"add_multiplied_total"}
+data modify storage heromode:config attributes.airborne append value {attribute:"minecraft:attack_speed", amount: -0.45, operation:"add_multiplied_total"}
