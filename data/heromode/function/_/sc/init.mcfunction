@@ -5,7 +5,7 @@ scoreboard players set *init _heromode 1
 data modify storage heromode:config attributes set value {airborne:[], passive:[]}
 
 # passive:
-data modify storage heromode:config attributes.passive append value {attribute:"minecraft:max_health", amount: -0.7, operation:"add_multiplied_total"}
+data modify storage heromode:config attributes.passive append value {attribute:"minecraft:max_health", amount: -0.6, operation:"add_multiplied_total"}
 data modify storage heromode:config attributes.passive append value {attribute:"minecraft:armor", amount: -0.3, operation:"add_multiplied_total"}
 data modify storage heromode:config attributes.passive append value {attribute:"minecraft:armor_toughness", amount: -0.3, operation:"add_multiplied_total"}
 data modify storage heromode:config attributes.passive append value {attribute:"minecraft:movement_speed", amount: -0.07, operation:"add_multiplied_total"}
