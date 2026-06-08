@@ -5,4 +5,4 @@
 
 advancement revoke @s only heromode:_/ground
 
-function heromode:_/main/airborne/activate
+function heromode:_/main/player/airborne/activate

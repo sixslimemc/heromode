@@ -3,7 +3,8 @@
 
 scoreboard objectives add _heromode dummy
 
-
+# TAGS:
+# .player
 
 # DEBUG
 scoreboard players reset *init _heromode
