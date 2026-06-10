@@ -24,7 +24,7 @@ data modify storage slimecore:in manifest.pack.abstract_declarations set value [
 data modify storage slimecore:in manifest.pack.abstract_implementations set value []
 
 data modify storage slimecore:in manifest.pack.dependencies set value []
-# data modify storage slimecore:in manifest.pack.dependencies append value {pack_id:"DEPENDENCY", author_id:"sixslime", optional:false, version:{major:0, minor:1}, download:{url:"https://github.com/sixslimemc/DEPENDENCY/releases/download/v0.1.0/sixslime.DEPENDENCY.0.1.0.zip", version:{major:0, minor:1, patch:0}}}
+data modify storage slimecore:in manifest.pack.dependencies append value {pack_id:"idied", author_id:"sixslime", optional:false, version:{major:0, minor:1}, download:{url:"https://github.com/sixslimemc/idied/releases/download/v0.1.0/sixslime.idied.0.1.0.zip", version:{major:0, minor:1, patch:0}}}
 
 data modify storage slimecore:in manifest.pack.is_library set value false
 
